@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 if [ -f "/detach_sess/.rtorrent" ]; then
-rm -f /detach_sess/.rtorrent || true
+rm -f /detach_sess/.rtorrent
 sleep 1s
 fi
 
