@@ -5,7 +5,7 @@
 #
 #sleep 1s
 if [ -f "/detach_sess/.irssi" ]; then
-rm -f /detach_sess/.irssi || true
+rm -f /detach_sess/.irssi
 sleep 1s
 fi
 
