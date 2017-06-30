@@ -206,13 +206,9 @@ wget -qO- https://github.com/rakshasa/rtorrent/archive/${RTORRENT_VER}.tar.gz | 
  npm install --production && \
 
 # install pyrocore
-mkdir -p ~/bin ~/.local
-git clone "https://github.com/pyroscope/pyrocore.git" ~/.local/pyroscope
-
-# Pass "/usr/bin/python2", or whatever else fits, to the script as its
-# 1st argument, if the default of "/usr/bin/python" is not a suitable
-# version.
-~/.local/pyroscope/update-to-head.sh
+mkdir -p ~/bin ~/.local && \
+git clone "https://github.com/pyroscope/pyrocore.git" ~/.local/pyroscope && \
+~/.local/pyroscope/update-to-head.sh && \
 
 # cleanup
  apk del --purge \
