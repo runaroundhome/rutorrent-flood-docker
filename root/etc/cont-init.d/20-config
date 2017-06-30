@@ -45,8 +45,18 @@ if [ ! -e "/config/php/php.ini" ]; then
 	sed -i -e 's/\(register_argc_argv .*=\).*/\1 On/g' /config/php/php.ini
 fi
 
+if [ ! -d "/root/.pyroscope" ]; then
+	/root/bin/pyroadmin --create-config
+	echo "PATH=$PATH:/root/bin" > /root/.bashrc
+	chmod u+x /root/.bashrc
+fi
 
-cp /config/php/php.ini /etc/php7/php.ini
+if [ ! -e "/config/pyroscope/config.ini" ]; then
+	cp /etc/defaults/config.ini /config/pyroscope/config.ini
+        rm /root/.pyroscope/config.ini && ln -s \
+/config/pyroscope/config.ini /root/.pyroscope/config.ini
+
+fi
 
 # create symlink for webui files
 [[ ! -e /var/www/localhost/rutorrent ]] && ln -s \
