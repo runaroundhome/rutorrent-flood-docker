@@ -85,7 +85,7 @@ RUN NB_CORES=${BUILD_CORES-`getconf _NPROCESSORS_CONF`} && \
 # install pyrocore dependencies
  apk add --no-cache \
         python python-dev \
-	bash-completion &&
+	bash-completion && \
 	
 # compile curl to fix ssl for rtorrent
 cd /tmp && \
