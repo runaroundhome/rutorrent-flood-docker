@@ -1,5 +1,5 @@
 NOTE: This is just a 1:1 fork from [romancin/rutorrent-flood-docker](https://github.com/romancin/rutorrent-flood-docker) so that I can refresh it on hub.docker more oftern to get the latest flood web-ui code.
-Namly to fix the [tracker filter bug](https://github.com/jfurrow/flood/issues/381).
+Namely to fix the [tracker filter bug](https://github.com/jfurrow/flood/issues/381).
 
 # rutorrent-flood-docker
 A repository for creating a docker container including rtorrent with rutorrent and flood interfaces.
