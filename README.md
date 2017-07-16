@@ -4,8 +4,8 @@ Namely to fix the [tracker filter bug](https://github.com/jfurrow/flood/issues/3
 # rutorrent-flood-docker
 A repository for creating a docker container including rtorrent with rutorrent and flood interfaces.
 
-[![](https://images.microbadger.com/badges/version/pleaselink/rutorrent-flood.svg)](https://microbadger.com/images/pleaselink/rutorrent-flood "Docker image version")
-[![](https://images.microbadger.com/badges/image/pleaselink/rutorrent-flood.svg)](https://microbadger.com/images/pleaselink/rutorrent-flood "Docker image size")
+[![](https://images.microbadger.com/badges/version/pleaselink/rtorrent-flood.svg)](https://microbadger.com/images/pleaselink/rtorrent-flood "Docker image version")
+[![](https://images.microbadger.com/badges/image/pleaselink/rtorrent-flood.svg)](https://microbadger.com/images/pleaselink/rtorrent-flood "Docker image size")
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X2CT2SWQCP74U)
 
 You can invite me a beer if you want ;)
