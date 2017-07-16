@@ -1,3 +1,5 @@
+NOTE: This is just a 1:1 fork from romancin/rutorrent-flood-docker so that I can refresh it on hub.docker more oftern to get the latest flood web-ui code.
+
 # rutorrent-flood-docker
 A repository for creating a docker container including rtorrent with rutorrent and flood interfaces.
 
@@ -5,7 +7,7 @@ A repository for creating a docker container including rtorrent with rutorrent a
 [![](https://images.microbadger.com/badges/image/romancin/rutorrent-flood.svg)](https://microbadger.com/images/romancin/rutorrent-flood "Docker image size")
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X2CT2SWQCP74U)
 
-You can invite me a beer if you want ;) 
+You can invite me a beer if you want ;)
 
 This is a completely funcional Docker image with flood, rutorrent, rtorrent, libtorrent and a lot of plugins 
 for rutorrent, like autodl-irssi, filemanager, fileshare and other useful ones.
